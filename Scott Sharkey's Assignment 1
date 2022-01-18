@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html lang="en">
+ <!-- The head and body go in between these tags -->
+
+<head>
+   <meta charset="UTF-8" />
+   <title>Scott Sharkey's Assignment 1</title>
+</head>
+
+<body>
+<h1>The Number 1 Song in The World on My Birthday was</h1>
+<p>Paragraph</p>
+<!-- Comment -->
+</body>
+</html>
