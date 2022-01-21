@@ -24,3 +24,10 @@ h3 {
 p {
   text-align: center;
 }
+
+imgbox {
+border: 2px solid #ff0000;
+padding: 10px 10px 10px 10px;
+margin: 20px 20px 20px 20px;
+background-color: #0000ff;
+}
