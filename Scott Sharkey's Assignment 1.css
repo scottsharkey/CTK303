@@ -1,19 +1,26 @@
 body {
-background-color: #8BCBE0;
-<!-- rose EC9E8E -->
-<!-- blue 8bcbe0 -->
+background-image: url("stars.jpg");
+background-color: #0b0577;
 }
+
+
 
 h1 {
   text-align: center;
+  font-family: "Lucida Handwriting", Lucida, cursive;
 }
 
 
 
 h2 {
   text-align: center;
+
+
 }
 
+hr {
+  color: #ff0000;
+}
 
 h3 {
   text-align: center;
@@ -28,5 +35,9 @@ p {
 border: 2px solid #ff0000;
 padding: 10px 10px 10px 10px;
 margin: 20px 20px 20px 20px;
-background-color: #0000ff;
+background-color:  #202c7b;
+}
+
+.emphasized {
+  font-style: italic;
 }
