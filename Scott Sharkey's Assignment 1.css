@@ -1,9 +1,10 @@
 body {
-background-image: url("stars.jpg");
+background-image: url("images/stars.png");
+background-position: center;
+background-size: cover;
 background-color: #0b0577;
+
 }
-
-
 
 h1 {
   text-align: center;
@@ -22,12 +23,8 @@ hr {
   color: #ff0000;
 }
 
+
 h3 {
-  text-align: center;
-}
-
-
-p {
   text-align: center;
 }
 
