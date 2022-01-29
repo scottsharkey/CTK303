@@ -1,0 +1,95 @@
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  margin: 10px;
+  background-color: #003300;
+  width: 100px;
+  color: white;
+  transition: background-color 1.0s, width 2.0s, color 2.0s;
+}
+
+nav a:hover {
+  background-color: #00ff00;
+  width: 200px;
+  color: black;
+}
+
+#animatediv {
+  color: white;
+  font-size: 36px;
+  width: 300px;
+  height: 300px;
+  background-color: #300;
+  animation: back-ani 15s linear infinite;
+}
+
+@keyframes back-ani {
+  0%   {font-size: 36px; background-color:#ff0000;}
+  50%  {font-size: 50px; background-color:#0000ff;}
+  100% {font-size: 36px; background-color:#ff0000;}
+}
+
+
+.circle1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500px;
+  height: 500px;
+  border-radius:500px;
+  opacity: .5;
+  background-color: #600;
+  animation: circle1-ani 10s linear infinite;
+}
+
+@keyframes circle1-ani {
+  0%   { opacity: .0; left:0; }
+  50%  { opacity: .5; }
+  100% { opacity: .0; left: 1000px; }
+}
+
+#slide1 {
+  width: 500px;
+  overflow: hidden;
+}
+
+#slide1 img {
+  width: 500px;
+  transition: all .25s;
+}
+
+#slide1:hover img {
+  transform: scale(1.1);
+
+}
+
+  #slide2 {
+    width: 500px;
+    overflow: hidden;
+  }
+
+  #slide2 img {
+    transition: all .25s;
+  }
+
+  #slide2:hover img {
+    transform: rotate(360deg);
+  }
+
+  #slide3 {
+  width: 500px;
+}
+
+#slide3 img {
+  transition: .1s all;
+}
+
+#slide3:hover img {
+  filter: blur(10px);
+}
