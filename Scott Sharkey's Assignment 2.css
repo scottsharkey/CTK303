@@ -28,7 +28,7 @@ body{
   height: 500px;
   border-radius:500px;
   opacity: 1;
-  background-color: brown;
+  background-color: grey;
   animation: merc1-ani 5s linear infinite;
 }
 
@@ -50,7 +50,7 @@ body{
   height: 500px;
   border-radius:500px;
   opacity: 1;
-  background-color: brown;
+  background-color: grey;
   animation: merc2-ani 5s linear infinite;
 }
 
