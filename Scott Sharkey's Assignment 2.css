@@ -1,0 +1,148 @@
+body{
+  background-color: black;
+}
+
+
+.sun {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 500;
+  width: 500px;
+  height: 500px;
+  border-radius:500px;
+  opacity: 1;
+  background-color: orange;
+  transform: scale(.75) translate(130%, 40%);
+}
+
+
+.merc1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 500;
+  width: 500px;
+  height: 500px;
+  border-radius:500px;
+  opacity: 1;
+  background-color: brown;
+  animation: merc1-ani 5s linear infinite;
+}
+
+@keyframes merc1-ani{
+0% {opacity:100%; transform: scale(.05) translate(750%, 600%);}
+50% {opacity:100%; transform: scale(.05) translate(3100%, 600%);}
+55% {opacity:0%;}
+100% {opacity:0%; transform: scale(.05) translate(750%, 600%);}
+}
+
+
+.merc2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 500;
+  width: 500px;
+  height: 500px;
+  border-radius:500px;
+  opacity: 1;
+  background-color: brown;
+  animation: merc2-ani 5s linear infinite;
+}
+
+@keyframes merc2-ani{
+0% {opacity:0%; transform: scale(.05) translate(750%, 600%);}
+50% {opacity:100%; transform: scale(.05) translate(3100%, 600%);}
+100% {opacity:100%; transform: scale(.05) translate(750%, 600%);}
+}
+
+
+.venu1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 500;
+  width: 500px;
+  height: 500px;
+  border-radius:500px;
+  opacity: 1;
+  background-color: tan;
+  animation: venu1-ani 13s linear infinite;
+}
+
+@keyframes venu1-ani{
+0% {opacity:0%; transform: scale(.15) translate(1250%, 200%);}
+50% {opacity:0%; transform: scale(.15) translate(50%, 200%);}
+55% {opacity:100%; }
+100% {opacity:100%; transform: scale(.15) translate(1250%, 200%);}
+}
+
+
+.venu2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 500;
+  width: 500px;
+  height: 500px;
+  border-radius:500px;
+  opacity: 1;
+  background-color: tan;
+  animation: venu2-ani 13s linear infinite;
+}
+
+@keyframes venu2-ani{
+0% {opacity:100%; transform: scale(.15) translate(1250%, 200%);}
+50% {opacity:100%; transform: scale(.15) translate(50%, 200%);}
+55% {opacity:100%;}
+100% {opacity:100%; transform: scale(.15) translate(1250%, 200%);}
+}
+
+
+.eart1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 500;
+  width: 500px;
+  height: 500px;
+  border-radius:500px;
+  opacity: 1;
+  background-color: blue;
+  animation: eart1-ani 21s linear infinite;
+}
+
+@keyframes eart1-ani{
+0% {opacity:100%; transform: scale(.20) translate(-100%, 150%);}
+50% {opacity:100%; transform: scale(.20) translate(1100%, 150%);}
+55% {opacity:0%; }
+100% {opacity:0%; transform: scale(.20) translate(-100%, 150%);}
+}
+
+.eart2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 500;
+  width: 500px;
+  height: 500px;
+  border-radius:500px;
+  opacity: 1;
+  background-color: blue;
+  animation: eart2-ani 21s linear infinite;
+}
+
+@keyframes eart2-ani{
+0% {opacity:100%; transform: scale(.20) translate(-100%, 150%);}
+50% {opacity:100%; transform: scale(.20) translate(1100%, 150%);}
+55% {opacity:100%; }
+100% {opacity:100%; transform: scale(.20) translate(-100%, 150%);}
+}
