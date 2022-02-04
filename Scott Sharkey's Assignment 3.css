@@ -1,0 +1,38 @@
+#Logo {
+width: 1000px;
+position: absolute;
+top: 100px;
+left: 250px;
+bottom: 0;
+}
+
+#Shark{
+animation: Shark-ani 20s linear infinite;
+}
+
+@keyframes Shark-ani{
+  0% {opacity:100%; transform: translate(20%, 0%);}
+  50% {opacity:100%; transform: translate(20%, 0%);}
+  100% {opacity:100%; transform: translate(0%, 0%);}
+  }
+
+
+#Initial{
+  animation: Initial-ani 20s linear infinite;
+}
+
+@keyframes Initial-ani{
+  0% {opacity:0%;}
+  50% {opacity:0%;}
+  100% {opacity:100%;}
+}
+
+#Last{
+animation: Last-ani 20s linear infinite;
+}
+
+@keyframes Last-ani{
+  0% {opacity:0%;}
+  50% {opacity:0%;}
+  100% {opacity:100%;}
+}
