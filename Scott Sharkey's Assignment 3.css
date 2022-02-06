@@ -11,19 +11,21 @@ animation: Shark-ani 20s linear infinite;
 }
 
 @keyframes Shark-ani{
-  0% {opacity:100%; transform: translate(20%, 0%);}
-  50% {opacity:100%; transform: translate(20%, 0%);}
+  0% {opacity:100%; transform: translate(15%, 0%);}
+  50% {opacity:100%; transform: translate(15%, 0%);}
+  60% {opacity:100%; transform: translate(0%, 0%);}
   100% {opacity:100%; transform: translate(0%, 0%);}
   }
 
 
-#Initial{
-  animation: Initial-ani 20s linear infinite;
+#First{
+animation: First-ani 20s linear infinite;
 }
 
-@keyframes Initial-ani{
-  0% {opacity:0%;}
-  50% {opacity:0%;}
+@keyframes First-ani{
+  0% {opacity:100%;transform: translate(-15%, 0%);}
+  50% {opacity:100%;transform: translate(-15%, 0%);}
+  60% {opacity:100%;transform: translate(0%, 0%);}
   100% {opacity:100%;}
 }
 
