@@ -5,9 +5,18 @@ top: 100px;
 left: 250px;
 bottom: 0;
 }
+#Color{
+animation: color-ani 30s linear infinite;
+}
 
+@keyframes color-ani{
+  0% {opacity: 0%;}
+  75% {opacity: 0%;}
+  80% {opacity:100%;}
+  100% {opacity:100%;}
+}
 #Shark{
-animation: Shark-ani 20s linear infinite;
+animation: Shark-ani 30s linear infinite;
 }
 
 @keyframes Shark-ani{
@@ -19,22 +28,25 @@ animation: Shark-ani 20s linear infinite;
 
 
 #First{
-animation: First-ani 20s linear infinite;
+animation: First-ani 30s linear infinite;
 }
 
 @keyframes First-ani{
-  0% {opacity:100%;transform: translate(-15%, 0%);}
-  50% {opacity:100%;transform: translate(-15%, 0%);}
+  0% {opacity:100%;transform: translate(0%, -200%);}
+  50% {opacity:100%;transform: translate(0%, -200%);}
+  58% {transform: translate(0%,-200%);}
   60% {opacity:100%;transform: translate(0%, 0%);}
   100% {opacity:100%;}
 }
 
 #Last{
-animation: Last-ani 20s linear infinite;
+animation: Last-ani 30s linear infinite;
 }
 
 @keyframes Last-ani{
   0% {opacity:0%;}
   50% {opacity:0%;}
-  100% {opacity:100%;}
+  60% {opacity:0%;transform: translate(0%, 0%);}
+  62% {opacity:100%;transform: translate(0%, 0%);}
+  100% {opacity:100%;transform: translate(0%, 0%);}
 }
