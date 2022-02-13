@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="JavaScript.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <h1>JavaScript</h1>
+  <button id="mybutton">Click for Random Prompt!</button>
+  <p class="peekaboo"> Result <var>myArray</var></p>
+
+
+
+
+<script src="JavaScript.js"></script>
+  <script>
+    $( "#mybutton" ).click(function() {
+      $( ".peekaboo" ).fadeToggle()
+    });
+
+  </script>
+
+
+</body>
+</html>
