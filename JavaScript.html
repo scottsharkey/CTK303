@@ -9,18 +9,28 @@
 </head>
 
 <body>
-  <h1>JavaScript</h1>
-  <button id="mybutton">Click for Random Prompt!</button>
-  <p class="peekaboo"> Result </p>
+  <h1>Random Fantasy TRPG Bounties</h1>
+  <br>
+  <br>
+  <button id="mybutton1">Random Bounties!</button>
+  <br>
+  <br>
+  <p class="peekaboo1"> Region </p>
+  <p class="peekaboo2"> Threat </p>
+  <p class="peekaboo3"> Reward </p>
 
 <script>
-    $( "#mybutton" ).click(function() {
-      $( ".peekaboo" ).fadeToggle()
-
+    $( "#mybutton1" ).click(function() {
+    $( ".peekaboo1" ).text(randomItem1);
+    $( ".peekaboo2" ).text(randomItem2);
+    $( ".peekaboo3" ).text(randomItem3);
+    $( ".peekaboo1" ).fadeToggle(randomItem1);
+    $( ".peekaboo2" ).fadeToggle(randomItem2);
+    $( ".peekaboo3" ).fadeToggle(randomItem3);
     });
 
   </script>
-  <!--script src="JavaScript.js"></script-->
+  <script src="JavaScript.js"></script>
 
 
 </body>

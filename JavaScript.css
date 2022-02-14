@@ -1,5 +1,10 @@
 body{
   text-align: center;
+  background-image: url("images/weatheredPaper.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
 }
 
 div{
@@ -9,5 +14,6 @@ div{
 button{
   display: inline-block;
   padding: 10px 20px;
+
 
 }
