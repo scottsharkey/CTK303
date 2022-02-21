@@ -1,0 +1,96 @@
+#Logo {
+width: 1000px;
+position: absolute;
+top: 100px;
+bottom: 0;
+margin-bottom: 1rem;
+margin-right: 1rem;
+margin-left: 1rem;
+}
+#Color{
+animation: color-ani 30s linear infinite;
+margin-bottom: 1rem;
+margin-right: 1rem;
+margin-left: 1rem;
+}
+
+@keyframes color-ani{
+  0% {opacity: 0%;}
+  75% {opacity: 0%;}
+  80% {opacity:100%;}
+  100% {opacity:100%;}
+}
+#Shark{
+animation: Shark-ani 30s linear infinite;
+margin-bottom: 1rem;
+margin-right: 1rem;
+margin-left: 1rem;
+}
+
+@keyframes Shark-ani{
+  0% {opacity:100%; transform: translate(15%, 0%);}
+  50% {opacity:100%; transform: translate(15%, 0%);}
+  60% {opacity:100%; transform: translate(0%, 0%);}
+  100% {opacity:100%; transform: translate(0%, 0%);}
+  }
+
+
+#First{
+animation: First-ani 30s linear infinite;
+margin-bottom: 1rem;
+margin-right: 1rem;
+margin-left: 1rem;
+}
+
+@keyframes First-ani{
+  0% {opacity:100%;transform: translate(0%, -200%);}
+  50% {opacity:100%;transform: translate(0%, -200%);}
+  58% {transform: translate(0%,-200%);}
+  60% {opacity:100%;transform: translate(0%, 0%);}
+  100% {opacity:100%;}
+}
+
+#Last{
+animation: Last-ani 30s linear infinite;
+margin-bottom: 1rem;
+margin-right: 1rem;
+margin-left: 1rem;
+}
+
+@keyframes Last-ani{
+  0% {opacity:0%;}
+  50% {opacity:0%;}
+  60% {opacity:0%;transform: translate(0%, 0%);}
+  62% {opacity:100%;transform: translate(0%, 0%);}
+  100% {opacity:100%;transform: translate(0%, 0%);}
+}
+
+@media all and (min-width: 0rem){
+  #Last { width: 70%; float: right; }
+  #First { width: 70%; float: right; }
+  #Shark { width: 70%; float: right; }
+  #Logo { width: 70%; float: right; }
+  #Color { width: 70%; float: right; }
+    body { max-width: 960px; margin: 0rem auto; }
+}
+
+
+@media all and (min-width: 30rem){
+  #Last { width: 70%; float: right; }
+  #First { width: 70%; float: right; }
+  #Shark { width: 70%; float: right; }
+  #Logo { width: 70%; float: right; }
+  #Color { width: 70%; float: right; }
+  body { max-width: 960px; margin: 0rem auto; }
+}
+
+
+@media all and (min-width: 50rem){
+  #Last { width: 70%; float: right; }
+  #First { width: 70%; float: right; }
+  #Shark { width: 70%; float: right; }
+  #Logo { width: 70%; float: right; }
+  #Color { width: 70%; float: right; }
+  body { max-width: 960px; margin: 0rem auto; }
+
+}
