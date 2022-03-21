@@ -1,9 +1,11 @@
 body{
   background-color: black;
   text-align: center;
-  text-decoration: white;
 }
 
+h1{
+  color: white;
+}
 
 .sun {
   position: absolute;
