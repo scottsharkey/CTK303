@@ -1,7 +1,11 @@
 body{
   background-color: black;
+  text-align: center;
 }
 
+h1{
+  color: white;
+}
 
 .sun {
   position: absolute;
@@ -14,7 +18,7 @@ body{
   border-radius:500px;
   opacity: 1;
   background-color: orange;
-  transform: scale(.75) translate(130%, 40%);
+  transform: scale(.75) translate(137%, 40%);
 }
 
 
